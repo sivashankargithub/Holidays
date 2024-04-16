@@ -1,8 +1,8 @@
 package pkg1.holidays;
 
 import java.io.File;
-import java.io.IOError;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -33,6 +33,16 @@ public class HolidaysController {
 	public List<HolidaysEntity> findAllHolidays() {
 		return hr1.findAll();
 	}
-	
-	
+	@GetMapping("/holidays/2024/{month}")
+	public List<HolidaysEntity> findAllHolidays(@PathVariable int month) {
+		List<HolidaysEntity>list1=hr1.findAll();
+		List<HolidaysEntity>list2=new ArrayList<>();
+		for(int i=0;i<list1.size();i++) {
+			String temp1=list1.get(i).getDate().substring(3,5);
+			if(month==Integer.parseInt(temp1)) {
+				list2.add(list1.get(i));
+			}
+		}
+		return list2;
+	}
 }

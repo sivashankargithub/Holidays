@@ -1,5 +1,6 @@
 package pkg1.holidays;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +17,7 @@ public class HolidaysEntity {
 	private String date;
 	private String day;
 	
+	
 	public HolidaysEntity(String holidays, String date, String day) {
 		super();
 		this.holidays = holidays;
@@ -25,7 +27,6 @@ public class HolidaysEntity {
 	
 	public HolidaysEntity() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public int getId() {
