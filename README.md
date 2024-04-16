@@ -1,3 +1,6 @@
 # Procedure for building JAVA REST API Projects
-### SangamOne Connected Services
+<p align="center">
+#### SangamOne Connected Services
+</p>
+#### SangamOne Connected Services
 
