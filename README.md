@@ -1,6 +1,6 @@
 <h1 align="center">Procedure for building JAVA REST API Projects</h1>
 <p align="center">SangamOne Connected Services</p>
-<pre><span style="font-size: 11px">
+<pre><span style="font-size: 50px">
 Background:  This document is to assist entry-level programmers to build simple REST API projects using Java, Spring Tool Suite, Postman, Talend API Tester.
 Tools: Download JDK, Spring Tool Suite,MySQL and Postman from https://www.oracle.com/in/java/technologies/downloads/
 https://spring.io/tools/
