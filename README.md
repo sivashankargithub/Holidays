@@ -1,7 +1,7 @@
 <h1 align="center">Procedure for building JAVA REST API Projects</h1>
 <p align="center">SangamOne Connected Services</p>
-<pre >
-### Background:  This document is to assist entry-level programmers to build simple REST API projects using Java, Spring Tool Suite, Postman, Talend API Tester.
+<pre><span style="font-size: 11px">
+Background:  This document is to assist entry-level programmers to build simple REST API projects using Java, Spring Tool Suite, Postman, Talend API Tester.
 Tools: Download JDK, Spring Tool Suite,MySQL and Postman from https://www.oracle.com/in/java/technologies/downloads/
 https://spring.io/tools/
 https://www.postman.com/downloads/
@@ -67,5 +67,5 @@ GET - http://localhost:8080/holidays/2024
 GET - http://localhost:8080/holidays/2024/3
 		
 Project 3:  Load “holidays1.csv file and display List of Holidays in Mar 2024 using Postgres Database
-
+</span>
 </pre>
