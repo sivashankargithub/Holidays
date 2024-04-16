@@ -6,7 +6,11 @@ Background:  This document is to assist entry-level programmers to build simple 
 Tools: Download JDK, Spring Tool Suite,MySQL and Postman from
 
 https://www.oracle.com/in/java/technologies/downloads/
+
 https://spring.io/tools/
+
 https://www.postman.com/downloads/
+
 https://chromewebstore.google.com/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm
+
 
